@@ -1,2 +1,13 @@
-challange tugas flutter sekolah 1
-![Screen Shot 2022-11-28 at 13 36 08](https://user-images.githubusercontent.com/68719199/204210649-000ed457-5376-42d0-b8f4-8536b5e0e087.png)
+Contoh dashboard tugas
+![Screen Shot 2022-12-12 at 06 36 17](https://user-images.githubusercontent.com/68719199/206935681-3107f67a-c5ad-4005-ad2a-412f6fd5dbf1.png)
+
+
+Tugas flutter kodein 1
+![Screen Shot 2022-12-12 at 06 36 23](https://user-images.githubusercontent.com/68719199/206935712-99c87705-63b8-4b31-9454-4fb784f040d5.png)
+
+
+Tugas flutter kodein 2
+![Screen Shot 2022-12-12 at 06 36 27](https://user-images.githubusercontent.com/68719199/206935760-d3b94bf7-4e9e-4a54-a8b5-884abd0393c9.png)
+
+
+
