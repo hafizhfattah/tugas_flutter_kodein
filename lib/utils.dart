@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 //Declaration Font Style
@@ -13,6 +14,41 @@ const white = CupertinoColors.white;
 const black = CupertinoColors.black;
 
 //Resubale Widget
+class FormDashboard extends StatelessWidget {
+  final String judul;
+  final String deskripsi;
+  final Widget route;
+
+  const FormDashboard({
+    required this.judul,
+    required this.deskripsi,
+    required this.route,
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: () => Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => route),
+      ),
+      child: Card(
+        child: ListTile(
+          title: Text(
+            judul,
+            style: fontStyle,
+          ),
+          subtitle: Text(
+            deskripsi,
+            style: fontStyle,
+          ),
+        ),
+      ),
+    );
+  }
+}
+
 class Reus1 extends StatefulWidget {
   const Reus1({
     Key? key,
@@ -42,7 +78,7 @@ class _Reus1State extends State<Reus1> {
         const SizedBox(
           height: 10.0,
         ),
-        Text(widget.label.toString(), style: fontStyle),
+        Text(widget.label.toString(), style: fontStyle1),
       ],
     );
   }
@@ -67,6 +103,7 @@ class _Reus2State extends State<Reus2> {
   final fontStyle2 = GoogleFonts.montserrat(
     letterSpacing: 1,
     fontWeight: FontWeight.w500,
+    color: white,
   );
 
   @override
@@ -74,11 +111,11 @@ class _Reus2State extends State<Reus2> {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Text(widget.value.toString(), style: fontStyle),
+        Text(widget.value.toString(), style: fontStyle2),
         const SizedBox(
           height: 2.0,
         ),
-        Text(widget.label.toString(), style: fontStyle),
+        Text(widget.label.toString(), style: fontStyle2),
       ],
     );
   }

@@ -10,23 +10,13 @@ class Tugas2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: white,
-      appBar: AppBar(
-        centerTitle: false,
-        title: Text("Hafizh Fattah",
-            style: GoogleFonts.montserrat(
-              fontSize: 18,
-              letterSpacing: 1,
-              fontWeight: FontWeight.w400,
-            )),
-      ),
+      appBar: AppBar(),
       body: Padding(
         padding: const EdgeInsets.all(12),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
+        child: ListView(
           children: [
             Container(
               height: 148.0,
-              width: 400,
               padding: const EdgeInsets.all(20),
               decoration: const BoxDecoration(
                 color: blue,
@@ -61,12 +51,14 @@ class Tugas2 extends StatelessWidget {
                           Text("Hafizh Fattah Amrizal",
                               style: GoogleFonts.montserrat(
                                 fontSize: 16,
+                                color: white,
                                 letterSpacing: 1,
                                 fontWeight: FontWeight.w600,
                               )),
                           Text("Mobile Programmer",
                               style: GoogleFonts.montserrat(
                                 fontSize: 14,
+                                color: white,
                                 letterSpacing: 1,
                                 fontWeight: FontWeight.w400,
                               )),

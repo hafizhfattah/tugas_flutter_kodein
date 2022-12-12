@@ -10,22 +10,19 @@ class Tugas1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     //Declaration Link For Image
-    String imageLink = "https://picsum.photos/id/61/1000";
+    String imageLink = "https://picsum.photos/1000";
 
     return Scaffold(
       backgroundColor: white,
       appBar: AppBar(
-        centerTitle: false,
-        title: Text("Hafizh Fattah",
-            style: GoogleFonts.montserrat(
-              fontSize: 18,
-              letterSpacing: 1,
-              fontWeight: FontWeight.w400,
-            )),
+        elevation: 0,
       ),
       body: ListView(
         padding: const EdgeInsets.all(12),
         children: [
+          const SizedBox(
+            height: 20.0,
+          ),
           Container(
             height: 200.0,
             decoration: BoxDecoration(
@@ -77,7 +74,7 @@ class Tugas1 extends StatelessWidget {
             height: 20.0,
           ),
           Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: const [
               Reus1(
                 label: "Call",
