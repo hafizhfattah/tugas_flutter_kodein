@@ -19,6 +19,13 @@ class Tugas2 extends StatelessWidget {
               height: 148.0,
               padding: const EdgeInsets.all(20),
               decoration: const BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: blue,
+                    blurRadius: 24,
+                    offset: Offset(0, 11),
+                  ),
+                ],
                 color: blue,
                 borderRadius: BorderRadius.all(
                   Radius.circular(
