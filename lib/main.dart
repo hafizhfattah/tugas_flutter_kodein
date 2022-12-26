@@ -4,7 +4,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'pages/tugas1.dart';
 import 'pages/tugas2.dart';
 import 'pages/tugas3.dart';
-import 'pages/tugas31.dart';
+import 'pages/tugas4.dart';
+import 'pages/tugas5.dart';
 import 'utils.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Tugas Kodein',
-      theme: ThemeData(useMaterial3: true),
+      theme: ThemeData(useMaterial3: false),
       home: const Dashboard(),
     );
   }
@@ -60,9 +61,14 @@ class Dashboard extends StatelessWidget {
               route: Tugas3(),
             ),
             FormDashboard(
-              judul: "Tugas 3.1",
+              judul: "Tugas 4",
               deskripsi: "Todo Page",
-              route: Tugas31(),
+              route: Tugas4(),
+            ),
+            FormDashboard(
+              judul: "Tugas 5",
+              deskripsi: "Slicing Shopping Page",
+              route: Tugas5(),
             ),
           ],
         ),

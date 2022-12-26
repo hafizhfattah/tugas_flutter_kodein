@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../utils.dart';
 
-class Tugas31 extends StatelessWidget {
-  const Tugas31({super.key});
+class Tugas4 extends StatelessWidget {
+  const Tugas4({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,6 @@ class Tugas31 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: false,
-      
       ),
       body: ListView(
         padding: const EdgeInsets.all(12),
