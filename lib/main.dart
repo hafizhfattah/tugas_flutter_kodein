@@ -6,6 +6,7 @@ import 'pages/tugas2.dart';
 import 'pages/tugas3.dart';
 import 'pages/tugas4.dart';
 import 'pages/tugas5.dart';
+import 'pages/tugas6.dart';
 import 'utils.dart';
 
 void main() {
@@ -69,6 +70,11 @@ class Dashboard extends StatelessWidget {
               judul: "Tugas 5",
               deskripsi: "Slicing Shopping Page",
               route: Tugas5(),
+            ),
+            FormDashboard(
+              judul: "Tugas 6",
+              deskripsi: "Todo App",
+              route: Tugas6(),
             ),
           ],
         ),
