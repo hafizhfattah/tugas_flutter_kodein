@@ -24,8 +24,13 @@ class Tugas7 extends StatelessWidget {
             fontWeight: FontWeight.w500,
           ),
         ),
-        leading: const Icon(
-          CupertinoIcons.list_dash,
+        leading: GestureDetector(
+          onTap: () {
+            Navigator.pop(context);
+          },
+          child: const Icon(
+            CupertinoIcons.list_dash,
+          ),
         ),
       ),
       body: ListView.builder(

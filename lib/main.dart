@@ -84,7 +84,7 @@ class Dashboard extends StatelessWidget {
               route: Tugas7(),
             ),
             FormDashboard(
-              judul: "Tugas ",
+              judul: "Tugas 8",
               deskripsi: "Live Coding 2 Login page",
               route: Tugas8(),
             ),

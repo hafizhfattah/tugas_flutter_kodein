@@ -33,6 +33,7 @@ class Tugas8 extends StatelessWidget {
         ),
       ),
       child: Scaffold(
+        appBar: AppBar(),
         body: SafeArea(
           child: Column(
             children: [
